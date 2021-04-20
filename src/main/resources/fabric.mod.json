@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dreamskill",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dream Skill",
+  "description": "A mod that gives you the skills of your dreams, by giving you the skills of Dream.",
   "authors": [
-    "Me!"
+    "SuitedLlama"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/SuitedLlama/Dream-Skill"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dreamskill/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.suitedllama.dreamskill.DreamSkill"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dreamskill.mixins.json"
   ],
 
   "depends": {
